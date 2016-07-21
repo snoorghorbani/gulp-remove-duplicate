@@ -1,0 +1,25 @@
+{
+  "name": "gulp-remove-duplicate",
+  "version": "1.0.0",
+  "description": "gulp-rename is a [gulp](https://github.com/wearefractal/gulp) plugin to rename files easily.",
+  "main": "index.js",
+  "dependencies": {
+    "concat-with-sourcemaps": "^1.0.4",
+    "multimatch": "^2.1.0",
+    "streamfilter": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snoorghorbani/gulp-remove-duplicate.git"
+  },
+  "author": "soushians noorghorbani <snoorghorbani@gmail.com> (www.soushians.ir)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snoorghorbani/gulp-remove-duplicate/issues"
+  },
+  "homepage": "https://github.com/snoorghorbani/gulp-remove-duplicate#readme"
+}
