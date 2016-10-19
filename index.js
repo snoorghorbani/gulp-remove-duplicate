@@ -6,18 +6,18 @@ var streamfilter = require('streamfilter');
 
 
 module.exports = function (options) {
-    console.log('***********************************AMS')
+    //console.log('***********************************AMS')
     options = options || {};
     var history = {};
 
     return streamfilter(function (file, enc, cb) {
-        console.log('***********************************AMS streamfilter')
+        // console.log('***********************************AMS streamfilter')
         //var fileName = file.relative;
-        console.log(file.relative)
+        // console.log(file.relative)
         //console.log(history)
 
         if (history[file.relative]) {
-            console.log(1)
+            // console.log(1)
             cb(true);
             return;
         };

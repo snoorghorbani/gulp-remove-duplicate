@@ -1,25 +1,79 @@
 {
-  "name": "gulp-remove-duplicate",
-  "version": "1.0.0",
-  "description": "gulp-rename is a [gulp](https://github.com/wearefractal/gulp) plugin to rename files easily.",
-  "main": "index.js",
+  "_args": [
+    [
+      {
+        "name": "gulp-remove-duplicate",
+        "raw": "gulp-remove-duplicate@*",
+        "rawSpec": "*",
+        "scope": null,
+        "spec": "*",
+        "type": "range"
+      },
+      "C:\\git repositories\\yo test\\8"
+    ]
+  ],
+  "_from": "gulp-remove-duplicate@*",
+  "_id": "gulp-remove-duplicate@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gulp-remove-duplicate",
+  "_nodeVersion": "5.11.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/gulp-remove-duplicate-1.0.0.tgz_1469108451554_0.1084490695502609"
+  },
+  "_npmUser": {
+    "email": "snoorghorbani@gmail.com",
+    "name": "soushians"
+  },
+  "_npmVersion": "3.9.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "gulp-remove-duplicate",
+    "raw": "gulp-remove-duplicate@*",
+    "rawSpec": "*",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gulp-remove-duplicate/-/gulp-remove-duplicate-1.0.0.tgz",
+  "_shasum": "e058ba83278846c00167401e8941cf9f2bcb0f69",
+  "_shrinkwrap": null,
+  "_spec": "gulp-remove-duplicate@*",
+  "_where": "C:\\git repositories\\yo test\\8",
+  "author": {
+    "email": "snoorghorbani@gmail.com",
+    "name": "soushians noorghorbani",
+    "url": "www.soushians.ir"
+  },
   "dependencies": {
     "concat-with-sourcemaps": "^1.0.4",
     "multimatch": "^2.1.0",
     "streamfilter": "^1.0.5"
   },
+  "description": "remove duplication from to source",
   "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "e058ba83278846c00167401e8941cf9f2bcb0f69",
+    "tarball": "https://registry.npmjs.org/gulp-remove-duplicate/-/gulp-remove-duplicate-1.0.0.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "snoorghorbani@gmail.com",
+      "name": "soushians"
+    }
+  ],
+  "name": "gulp-remove-duplicate",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/snoorghorbani/gulp-remove-duplicate.git"
-  },
-  "author": "soushians noorghorbani <snoorghorbani@gmail.com> (www.soushians.ir)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/snoorghorbani/gulp-remove-duplicate/issues"
-  },
-  "homepage": "https://github.com/snoorghorbani/gulp-remove-duplicate#readme"
+  "version": "1.0.1"
 }
